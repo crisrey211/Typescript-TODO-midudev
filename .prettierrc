@@ -1,0 +1,14 @@
+{
+    "printWidth": 40,        // Longitud máxima de línea antes de hacer un salto de línea.
+    "tabWidth": 2,           // Tamaño de la sangría (espacios por nivel de anidamiento).
+    "useTabs": false,        // Usar espacios en lugar de tabulaciones.
+    "semi": true,            // Colocar un punto y coma al final de las declaraciones.
+    "singleQuote": false,    // Usar comillas simples en lugar de comillas dobles.
+    "jsxSingleQuote": false, // Usar comillas simples en JSX.
+    "trailingComma": "none", // Colocar una coma final en arrays y objetos literales.
+    "bracketSpacing": true,  // Espacio antes y después de llaves en objetos literales.
+    "jsxBracketSameLine": false, // Colocar el ">" de cierre de las etiquetas JSX en la misma línea.
+    "arrowParens": "avoid",  // Colocar paréntesis alrededor de los argumentos de las funciones flecha de un solo parámetro.
+    "endOfLine": "crlf"      // Formato de salto de línea ("auto", "lf", o "crlf").
+  }
+  
