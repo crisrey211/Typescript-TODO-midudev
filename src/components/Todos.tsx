@@ -1,13 +1,13 @@
-import { type ListOfTodos } from "../types"
+import { type ListOfTodos } from '../types'
 
 interface Props {
-    todos: ListOfTodos
+  todos: ListOfTodos
 }
 
-export const Todos: React.FC<Props> = ({todos})=>{
-    return(
+export const Todos: React.FC<Props> = ({ todos }) => {
+  return (
         <ul>
-            {todos.map((todo)=><li>{todo.title}</li>)}
+            {todos.map((todo, i) => <li key={i}>{todo.title}</li>)}
         </ul>
-    )
+  )
 }
