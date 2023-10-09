@@ -3,7 +3,7 @@
     "tabWidth": 2,           // Tamaño de la sangría (espacios por nivel de anidamiento).
     "useTabs": false,        // Usar espacios en lugar de tabulaciones.
     "semi": true,            // Colocar un punto y coma al final de las declaraciones.
-    "singleQuote": false,    // Usar comillas simples en lugar de comillas dobles.
+    "singleQuote": true,    // Usar comillas simples en lugar de comillas dobles.
     "jsxSingleQuote": false, // Usar comillas simples en JSX.
     "trailingComma": "none", // Colocar una coma final en arrays y objetos literales.
     "bracketSpacing": true,  // Espacio antes y después de llaves en objetos literales.
