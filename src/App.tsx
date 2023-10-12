@@ -27,7 +27,6 @@ const App = (): JSX.Element => {
   const handleCompleted = ({ id, completed }: Pick<TodoType, 'id' | 'completed'>): void => {
     const newTodos = todos.map((todo) => {
       if (todo.id === id) {
-        console.log('hola')
         return { ...todo, completed }
       }
       return todo
