@@ -1,6 +1,6 @@
 {
     "printWidth": 40,        // Longitud máxima de línea antes de hacer un salto de línea.
-    "tabWidth": 2,           // Tamaño de la sangría (espacios por nivel de anidamiento).
+    "tabWidth": 1,           // Tamaño de la sangría (espacios por nivel de anidamiento).
     "useTabs": false,        // Usar espacios en lugar de tabulaciones.
     "semi": true,            // Colocar un punto y coma al final de las declaraciones.
     "singleQuote": true,    // Usar comillas simples en lugar de comillas dobles.
